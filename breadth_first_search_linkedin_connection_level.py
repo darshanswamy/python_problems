@@ -44,5 +44,6 @@ def get_linkedin_level(user1, user2):
     print("Path btw user1 and user2: ", bfs_traversal_output)
     return level[user2]
 
-print(get_linkedin_level('Mike', 'Sam'))
-print(get_linkedin_level('Mike', 'David'))
+if __name__ == '__main__':
+    print(get_linkedin_level('Mike', 'Sam'))
+    print(get_linkedin_level('Mike', 'David'))
